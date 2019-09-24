@@ -1,0 +1,97 @@
+.header {
+  height: 650px;
+  width: 100%;
+  background-image: url('../img/Header - Background.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;  */
+  /* ^-------- fix this! */
+  background-size: cover;
+}
+
+.welcome {
+  font-size: 1.3em;
+  font-family: 'New Rocker', cursive;
+  position: relative;
+  top: -30px;
+}
+
+.typedStuff {
+  font-family: 'New Rocker', cursive;
+  font-size: 1.1em;
+}
+
+.content {
+  padding-top: 150px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* was on 1st Row + style={{display: 'block'}} on Col */
+
+/* .mobileCentering {
+  justify-content: center;
+} */
+
+.p2, .p3 {
+  display: none;
+}
+
+.forBtn {
+  padding-top: 30px;
+}
+
+.forBtn .btn-dark {
+  border-radius: 2rem;
+  position: relative;
+  top: -333px;
+  left: 90px;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .forBtn .btn-dark {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 992px){
+
+  .header {
+    height: 780px;
+  }
+
+  .welcome {
+    font-size: 2em;
+  }
+
+  .p2, .p3{
+    display: block;
+  }
+
+  .content {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+
+  .header {
+    height: 936px;
+    background-attachment: inherit;
+  }
+
+  .welcome {
+    font-size: 2em;
+  }
+
+  .p2, .p3{
+    display: block;
+  }
+
+  .content {
+    padding-top: 100px;
+  }
+}

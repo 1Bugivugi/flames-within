@@ -1,0 +1,309 @@
+.gallerySectionTitle {
+  padding-top: 50px;
+  color: rgb(57, 57, 57);
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.gallerySectionTitle p {
+  font-size: 14px;
+}
+
+.gallerySectionTitle img {
+  width: 170px;
+}
+
+.galaryDesc {
+  color: rgb(57, 57, 57)
+}
+
+/*
+  Gallery content
+*/
+
+.galleryContent {
+  padding-top: 25px;
+}
+
+.galleryContent img {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.goToGallery {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Fira Sans', sans-serif;
+  color: rgb(57, 57, 57);
+}
+
+.goToGallery p {
+  font-size: 14px;
+}
+
+.galleryContent2 {
+  display: none;
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .gallerySectionTitle {
+    padding-top: 150px;
+  }
+
+  .gallerySectionTitle h3 {
+    font-size: 2em;
+  }
+
+  .gallerySectionTitle p {
+    font-size: 15px;
+  }
+
+  /*
+    Gallery contents
+  */
+
+  .galleryContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    padding-top: 50px;
+  }
+
+  .galleryContent img {
+    width: 33.3%;
+    height: 350px;
+    padding-bottom: 0px;
+  }
+
+  .pic1 {
+    position: relative;
+    left: 50px;
+    z-index: -1;
+  }
+
+  .pic2 {
+    position: relative;
+    top: 35px;
+    z-index: 1;
+    box-shadow: 0 5px 5px rgb(182, 182, 182);
+  }
+
+  .pic3 {
+    position: relative;
+    right: 50px;
+    z-index: -1;
+  }
+
+  .goToGallery {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .goToGallery p {
+    font-size: 15px;
+  }
+
+  /*
+    Gallery contents 2
+  */
+
+  .galleryContent2 {
+    display: block;
+    width: 800px;
+    padding-top: 160px;
+  }
+
+  .test3 {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*
+    (1)Either upload fixed width imgs(2 small ones = (1 big one's height)/2 - each),
+    OR (2)leave like this -> fixed height with CSS
+   */
+
+  .galleryContent2 .view1 {
+    width: 100%;
+    height: 100%;
+    /* (1) ^- uncomment this for instructions above to work properly */
+    /* height: 500px; */
+    /* (2) ^- uncomment this for instructions above to work properly*/
+  }
+
+  .galleryContent2 .view2 {
+    width: 100%;
+    height: 100%; /*
+    (1) ^- uncomment this for instructions above to work properly */
+    /* height: 250px; */
+    /* (2) <- uncomment this for instructions above to work properly */
+    padding-bottom: 15px;
+  }
+
+  .galleryContent2 .view3 {
+    width: 100%;
+    height: 100%;
+    /* (1) ^- uncomment this for instructions above to work properly*/
+    /* height: 250px; */
+    /* (2) <- uncomment this for instructions above to work properly*/
+    padding-top: 15px;
+  }
+
+  .galleryContent2 .view4 {
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+  }
+
+/* ----------------------------------- */
+
+  .fixedHeight1 {
+    height: 500px;
+  }
+
+
+  .fixedHeight2 {
+    height: 250px;
+  }
+
+/* (1) ^- uncomment this for instructions above to work properly*/
+
+}
+
+@media screen and (min-width: 1400px) {
+
+  .gallerySectionTitle {
+    padding-top: 180px;
+  }
+
+  .gallerySectionTitle p {
+    font-size: 16px;
+  }
+
+  .gallerySectionTitle img {
+    width: 194px;
+  }
+
+  .galleryDesc {
+    color: rgb(57, 57, 57);
+    font-size: 16px;
+  }
+
+  .gallerySectionTitle h3 {
+    font-size: 2.5em;
+  }
+
+  /*
+    Gallery contents
+  */
+
+  .galleryContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1095px;
+    padding-top: 75px;
+  }
+
+  .galleryContent img {
+    width: 33.3%;
+    height: 450px;
+    padding-bottom: 0px;
+  }
+
+  .pic1 {
+    position: relative;
+    left: 50px;
+    z-index: -1;
+  }
+
+  .pic2 {
+    position: relative;
+    top: 35px;
+    z-index: 1;
+    box-shadow: 0 5px 5px rgb(182, 182, 182);
+    padding-bottom: 0px;
+  }
+
+  .pic3 {
+    position: relative;
+    right: 50px;
+    z-index: -1;
+  }
+
+  .goToGallery {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .goToGallery p {
+    font-size: 16px;
+  }
+
+  /*
+    Gallery contents 2
+  */
+
+  .galleryContent2 {
+    display: block;
+    width: 995px;
+    padding-top: 160px;
+  }
+
+  .test3 {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*
+    (1)Either upload fixed width imgs(2 small ones = (1 big one's height)/2 - each),
+    OR (2)leave like this -> fixed height with CSS
+   */
+
+  .galleryContent2 .view1 {
+    width: 100%;
+    height: 100%;
+    /* (1) ^- uncomment this for instructions above to work properly */
+    /* height: 500px; */
+    /* (2) ^- uncomment this for instructions above to work properly*/
+  }
+
+  .galleryContent2 .view2 {
+    width: 100%;
+    height: 100%; /*
+    (1) ^- uncomment this for instructions above to work properly */
+    /* height: 250px; */
+    /* (2) <- uncomment this for instructions above to work properly */
+    padding-bottom: 15px;
+  }
+
+  .galleryContent2 .view3 {
+    width: 100%;
+    height: 100%;
+    /* (1) ^- uncomment this for instructions above to work properly*/
+    /* height: 250px; */
+    /* (2) <- uncomment this for instructions above to work properly*/
+    padding-top: 15px;
+  }
+
+  .galleryContent2 .view4 {
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+  }
+
+/* ----------------------------------- */
+
+  .fixedHeight1 {
+    height: 500px;
+  }
+
+
+  .fixedHeight2 {
+    height: 250px;
+  }
+
+/* (1) ^- uncomment this for instructions above to work properly*/
+
+}

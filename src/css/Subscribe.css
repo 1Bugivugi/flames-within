@@ -1,0 +1,95 @@
+.subscribeTitle {
+  padding-top: 75px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.subscribeTitle p {
+  font-size: 14px;
+}
+
+.subscribeTitle input {
+  margin-top: 5px;
+  border-radius: 15px;
+  border-width: 0;
+  background-color: rgb(221, 221, 221);
+  text-align: center;
+  height: 30px;
+  width: 100%;
+}
+
+.subButton {
+  background-color: rgb(85, 45, 91);
+  border-color: rgb(85, 45, 91);
+  border-radius: 20px;
+  width: 150px;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .subscribeTitle {
+      padding-top: 180px;
+    }
+
+    .subscribeTitle h3 {
+      font-size: 2rem;
+    }
+
+    .subscribeTitle p {
+      font-size: 15px;
+    }
+
+    .subGRP {
+      padding-top: 15px;
+    }
+
+    .subscribeTitle input {
+      width: 33.3%;
+      margin: 0 !important;
+      height: 36px;
+      border-radius: 20px;
+      border-width: 0px;
+    }
+
+    .subButton {
+      margin-top: 0 !important;
+      margin-left: 15px;
+      margin-top: 1px;
+      margin-bottom: 1px;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+  .subscribeTitle {
+    padding-top: 180px;
+  }
+
+  .subscribeTitle h3 {
+    font-size: 2.5rem;
+  }
+
+  .subscribeTitle p {
+    font-size: 16px;
+  }
+
+  .subGRP {
+    padding-top: 15px;
+  }
+
+  .subscribeTitle input {
+    width: 33.3%;
+    margin: 0 !important;
+    height: 36px;
+    border-radius: 20px;
+    border-width: 0px;
+  }
+
+  .subButton {
+    margin-top: 0 !important;
+    margin-left: 15px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+
+}

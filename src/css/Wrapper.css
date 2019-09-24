@@ -1,0 +1,16 @@
+.dunno {
+  height: 100%;
+  width: 100%;
+}
+
+.dunno2 {
+  margin-top: -100px;
+}
+
+@media screen and (min-width: 1200px){
+
+  .dunno2 {
+    margin-top: 0;
+  }
+
+}

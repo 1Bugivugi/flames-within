@@ -1,0 +1,177 @@
+.blogTitle {
+  padding-top: 75px;
+  color: rgb(57, 57, 57);
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.blogTitle p {
+  font-size: 14px;
+}
+
+.blogTitle img {
+  width: 170px;
+}
+
+.blogDesc {
+  color: rgb(57, 57, 57)
+}
+
+.blogContent1 {
+  padding-top: 50px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.blogContent1 > * {
+  margin-bottom: 50px;
+}
+
+.blogContent2 {
+  display: none;
+}
+
+.devLogs {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+
+  .blogContent1 {
+    display: none;
+  }
+
+  .blogContent2 {
+    display: block;
+  }
+
+  .blogTitle {
+    padding-top: 180px;
+  }
+
+  .blogTitle h3 {
+    font-size: 2rem;
+  }
+
+  .blogTitle p {
+    font-size: 15px;
+  }
+
+  /*
+    Carousel content
+   */
+
+  .test4 {
+    display: flex;
+    color: rgb(57, 57, 57);
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  .blogContent2 .carousel-control-next {
+    width: 100px;
+  }
+
+  .blogContent2 .carousel-control-prev {
+    width: 100px;
+  }
+
+  .blogContent2 .carousel-caption {
+    width: 880px;
+    left: 9.3%;
+  }
+
+  .blogItem > * {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  .blogItem img {
+    width: 100%;
+  }
+
+  .blogItem a {
+    display: block;
+    color: rgb(57, 57, 57)
+  }
+
+  .blogPsSection p {
+    font-size: 15px;
+  }
+
+  /*
+    Dev Logs
+   */
+
+    
+
+}
+
+
+@media screen and (min-width: 1400px) {
+
+  .blogContent1 {
+    display: none;
+  }
+
+  .blogContent2 {
+    display: block;
+  }
+
+  .blogTitle {
+    padding-top: 180px;
+  }
+
+  .blogTitle h3 {
+    font-size: 2.5rem;
+  }
+
+  .blogTitle p {
+    font-size: 16px;
+  }
+
+  /*
+    Carousel content
+   */
+
+  .test4 {
+    display: flex;
+    color: rgb(57, 57, 57);
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  .blogContent2 .carousel-control-next {
+    width: 100px;
+  }
+
+  .blogContent2 .carousel-control-prev {
+    width: 100px;
+  }
+
+  .blogContent2 .carousel-caption {
+    width: 880px;
+    left: 9.3%;
+  }
+
+  .blogItem > * {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  .blogItem img {
+    width: 100%;
+  }
+
+  .blogItem a {
+    display: block;
+    color: rgb(57, 57, 57)
+  }
+
+  .blogPsSection p {
+    font-size: 15px;
+  }
+
+  /*
+    Dev Logs
+   */
+
+
+
+}

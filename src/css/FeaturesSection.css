@@ -1,0 +1,367 @@
+.MFsectionTitle {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: rgb(57, 57, 57);
+  font-size: 1.5em;
+}
+
+.MFdesc {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+}
+
+.MFsectionTitle img {
+  width: 170px;
+}
+
+/* --- MF section properties (MOBILE!) --- */
+/* (scales badly in case of img substitution, fix in later versions) */
+
+.MFsectionContent {
+  padding-top: 50px;
+}
+
+.MFsectionContentPC {
+  display: none;
+}
+
+.test {
+  color: rgb(57, 57, 57);
+  padding-bottom: 20px;
+}
+
+.test h3 {
+  font-family: 'Fira Sans', sans-serif;
+  padding-bottom: 20px;
+}
+
+.MFpsSection {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.MFillustrationIMG {
+  padding-bottom: 30px;
+}
+
+/* --- Carousel color adjustments --- */
+
+.carousel-indicators li {
+  background-color: #dc3545;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23rgb(57, 57, 57)' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23rgb(57, 57, 57)' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+}
+
+/* --- Responsive design --- */
+
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px){
+
+  .MFsectionTitle {
+    height: 0px;
+    position: relative;
+    top: -200px;
+  }
+
+  .MFsectionTitle h3 {
+    font-size: 1.5em;
+  }
+
+  .MFsectionTitle p {
+    font-size: 16px;
+  }
+
+  .MFsectionTitle img {
+    position: relative;
+    top: 40px;
+    width: 194px;
+  }
+
+  .MFsectionContent svg {
+    height: 550px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+
+  /* --- MF content section properties (PC!) --- */
+
+  /* (background for carousel Item) */
+
+  .backgroundIMG1 {
+    z-index: -1;
+    height: 500px;
+    width: 400px;
+    position: relative;
+    right: 25px;
+  }
+
+  .backgroundIMG2 {
+    z-index: -1;
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left: 25px;
+  }
+
+  .feature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .feature1 {
+    padding-bottom: 110px;
+  }
+
+  .feature2 {
+    padding-top: 110px;
+  }
+
+  .feature1desc {
+    position: relative;
+    left: 25px;
+    top: 20px;
+    z-index: 1;
+    background-color: white;
+    width: 450px;
+    height: 460px;
+    box-shadow: 0px 1px 2px rgb(184, 179, 179);
+  }
+
+  .feature2desc {
+    position: relative;
+    right: 25px;
+    top: 20px;
+    z-index: 1;
+    background-color: white;
+    width: 450px;
+    height: 460px;
+    box-shadow: 0px 1px 1px rgb(184, 179, 179)
+  }
+
+  .MFillustrationIMG {
+    height: 166px;
+    width: 153.5px;
+  }
+
+  .MFpsSectionPC {
+    color: rgb(57, 57, 57);
+    font-size: 14px;
+  }
+
+
+/* WHOLE SECTION PROPS */
+/* --------------------------------------- */
+
+  .MFsectionContentPC {
+    display: block;
+    justify-content: center;
+    height: 1450px;
+    padding-top: 150px;
+  }
+
+/* --------------------------------------- */
+
+/* Wraps Caption insides */
+
+  .test2 {
+    padding-bottom: 10px;
+  }
+
+/* Certain els props */
+
+  .MFsectionContentPC h5 {
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(57, 57, 57);
+    font-weight: 400;
+  }
+
+  .test2 hr {
+    width: 50px;
+    border-top: 2px solid black;
+  }
+
+/* Main Features PC section title adjustments */
+
+  .MFsectionTitle {
+    position: relative;
+    top: -200px;
+  }
+
+  .MFsectionTitle h3 {
+    font-size: 2em;
+  }
+
+  .MFsectionTitle p {
+    font-size: 16px;
+  }
+
+  .MFsectionTitle img {
+    position: relative;
+    top: 40px;
+    width: 194px;
+  }
+
+  /* MF section content display */
+
+  .MFsectionContent {
+    display: none;
+  }
+
+}
+
+/* 490x495 - desc
+    590x550 - img
+ */
+
+ @media screen and (min-width: 1400px) {
+
+     /* --- MF content section properties (PC!) --- */
+
+     /* (background for carousel Item) */
+
+     .backgroundIMG1 {
+       z-index: -1;
+       height: 600px;
+       width: 500px;
+       position: relative;
+       right: 27.5px;
+     }
+
+     .backgroundIMG2 {
+       z-index: -1;
+       height: 600px;
+       width: 500px;
+       position: relative;
+       left: 27.5px;
+     }
+
+     .feature {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+     }
+
+     .feature1 {
+       padding-bottom: 110px;
+
+     }
+
+     .feature2 {
+       padding-top: 110px;
+
+     }
+
+     .feature1desc {
+       position: relative;
+       left: 27.5px;
+       top: 30px;
+       z-index: 1;
+       background-color: white;
+       width: 550px;
+       height: 540px;
+       box-shadow: 0px 1px 2px rgb(184, 179, 179);
+     }
+
+     .feature2desc {
+       position: relative;
+       right: 27.5px;
+       top: 30px;
+       z-index: 1;
+       background-color: white;
+       width: 550px;
+       height: 540px;
+       box-shadow: 0px 1px 1px rgb(184, 179, 179)
+     }
+
+     .MFbckgrSVG {
+       height: 540px;
+     }
+
+     .MFillustrationIMG {
+       height: 196px;
+       width: 183.5px;
+     }
+
+     .MFpsSectionPC {
+       color: rgb(57, 57, 57);
+       font-size: 16px;
+       padding-bottom: 10px;
+     }
+
+
+   /* WHOLE SECTION PROPS */
+   /* --------------------------------------- */
+
+     .MFsectionContentPC {
+       display: block;
+       justify-content: center;
+       height: 1650px;
+       padding-top: 150px;
+     }
+
+   /* --------------------------------------- */
+
+   /* Wraps Caption insides */
+
+     .test2 {
+       padding-bottom: 40px;
+     }
+
+   /* Certain els props */
+
+     .MFsectionContentPC h5 {
+       font-family: 'Fira Sans', sans-serif;
+       color: rgb(57, 57, 57);
+       font-weight: 400;
+     }
+
+     .test2 hr {
+       width: 50px;
+       border-top: 2px solid black;
+     }
+
+   /* Main Features PC section title adjustments */
+
+     .MFsectionTitle {
+       position: relative;
+       top: -200px;
+     }
+
+     .MFsectionTitle h3 {
+       font-size: 2em;
+     }
+
+     .MFsectionTitle p {
+       font-size: 16px;
+     }
+
+     .MFsectionTitle img {
+       position: relative;
+       top: 40px;
+       width: 194px;
+     }
+
+     /* MF section content display */
+
+     .MFsectionContent {
+       display: none;
+     }
+
+ }

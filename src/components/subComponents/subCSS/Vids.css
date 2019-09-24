@@ -1,0 +1,53 @@
+.smallVids {
+  display: none;
+}
+
+.mainVid1 iframe {
+  width: 100%;
+  height: 250px;
+}
+
+.mainVid2 {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .mobileVids {
+    display: none;
+  }
+
+  .mainVid2 {
+    display: block;
+  }
+
+  .mainVid2 iframe {
+    width: 750px;
+  }
+
+  .smallVids {
+    width: 800px;
+    display: block;
+  }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+  .mobileVids {
+    display: none;
+  }
+
+  .mainVid2 {
+    display: block;
+  }
+
+  .mainVid2 iframe {
+    width: 950px;
+  }
+
+  .smallVids {
+    width: 995px;
+    display: block;
+  }
+
+}
